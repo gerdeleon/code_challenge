@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODE CHALLENGE</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <form action="https://jsonplaceholder.typicode.com/users" method="post">
+        
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="user_name"/>
+               
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="surname" name="apellido" />
+            
+        <label for="fecha-nacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required><br>
+            
+        <button type="button" onclick="postData()">Enviar</button>
+        
+    </form>
+</body>
+</html>
